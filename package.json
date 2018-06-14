@@ -1,0 +1,19 @@
+{
+  "name": "vue-dhtmlx",
+  "version": "1.0.0",
+  "description": "Prototype to let DHTMLX and VUE work together",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DHTMLX",
+    "VUE"
+  ],
+  "author": "Remi Kristelijn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
