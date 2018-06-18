@@ -1,26 +1,19 @@
-# vue-cli
+# Introduction
 
-This project was cloned from [https://codesandbox.io/s/3y8nwrlr66](https://codesandbox.io/s/3y8nwrlr66) and is a simple Todo App build in Vue:
+This project's objective is to successfully combine VUE.js and DHTMLX.js in order to:
+1. have component-based file structure
+2. have routes, so when pressing F5 it stays on the same place in the app, and also have different entry points and ability to share urls within the app
+3. use the reactiveness of VUE to improve performance
+
+## Related projects
+
+1. [rkristelijn/dhtmlx-json-node](https://github.com/rkristelijn/dhtmlx-json-node) full-stack mongodb-node-dhtmlx-fetch
+2. [rkristelijn/frontenddeveloperlove2018](https://github.com/rkristelijn/frontenddeveloperlove2018) my first vue app
+3. [rkristelijn/vue-tasklist](https://github.com/rkristelijn/vue-tasklist.git) (starting point for this project)
 
 # Installation
 
-- `git clone https://github.com/rkristelijn/vue-cli.git`
-- `cd vue-cli`
+- `git clone https://github.com/rkristelijn/vue-dhtmlx.git`
+- `cd vue-dhtmlx`
 - `npm i`
 - `npm run serve`
-
-# Result
-
-![Screenshot of the working app, showing an input with 3 items. Also the Vue DevTools is showing the component structure](README.md.files/Screenshot_20180615_105314.png)
-
-```bash
- DONE  Compiled successfully in 2382ms                                                                                10:51:12
-
- 
-  App running at:
-  - Local:   http://localhost:8080/ 
-  - Network: http://10.0.2.15:8080/
-
-  Note that the development build is not optimized.
-  To create a production build, run npm run build.
-```
